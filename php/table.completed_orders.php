@@ -5,7 +5,6 @@
  * Created by http://editor.datatables.net/generator
  */
 
-date_default_timezone_set('America/Chicago');
 // DataTables PHP library and database connection
 include( "lib/DataTables.php" );
 
@@ -19,14 +18,18 @@ use
 	DataTables\Editor\Validate;
 
 
-// Build our Ed itor instance and process the data coming from _POST
-Editor::inst( $db, 'shoot_tracker', 'shoot_number' )
+// Build our Editor instance and process the data coming from _POST
+Editor::inst( $db, 'completed_orders', 'invoice' )
 	->fields
 	(
-		Field::inst( 'shoot_number' ),
-		Field::inst( 'shoot_processed_date' ),
-		Field::inst( 'status' ),
-		Field::inst( 'notes' )
+		Field::inst( 'invoice'			),
+		Field::inst( 'client' 			),
+		Field::inst( 'phone' 			),
+		Field::inst( 'email' 			),
+		Field::inst( 'order_status'		),
+		Field::inst( 'notes' 			),
+		Field::inst( 'balance' 			),
+		Field::inst( 'shelf_location' 	)
 	)
 	->process( $_POST )
 	->json();

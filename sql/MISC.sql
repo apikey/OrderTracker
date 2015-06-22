@@ -15,3 +15,17 @@ BEGIN
 	(OLD.invoice, OLD.client, OLD.phone, OLD.email, OLD.order_status, OLD.notes, OLD.balance, OLD.shelf_location);
 END;; 
 DELIMITER ;
+
+-- Insert deleted shoot tracker item and into proof_tracker when order shoot is deleted.
+DELIMITER ;;
+DROP TRIGGER IF EXISTS INSERT_INTO_PROOF_TRACKER;;
+CREATE TRIGGER INSERT_INTO_PROOF_TRACKER
+BEFORE DELETE
+	ON shoot_tracker FOR EACH ROW
+BEGIN
+	INSERT INTO proof_tracker
+	(shoot_number, status)
+	VALUES
+	(OLD.shoot_number, OLD.status);
+END;;
+DELIMITER ;

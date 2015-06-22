@@ -26,11 +26,11 @@
 
 	<!-- JAVASCRIPT / JQUERY -->
 	<!-- jquery -->
-	<script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
 	<script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-1.11.2.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<!-- moment -->
-	<script type="text/javascript" language="javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script><script type="text/javascript" language="javascript" src="//cdn.datatables.net/plug-ins/1.10.7/sorting/datetime-moment.js"></script>
+	<script type="text/javascript" language="javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+	<script type="text/javascript" language="javascript" src="//cdn.datatables.net/plug-ins/1.10.7/sorting/datetime-moment.js"></script>
 	<!-- fixed table plugin -->
 	<script type="text/javascript" charset="utf-8" src="js/dataTables.fixedHeader.js"></script>
 	<!-- DataTables -->
@@ -43,10 +43,13 @@
 	<script type="text/javascript" charset="utf-8" src="js/table.order_tracker.js"></script>
 	<script type="text/javascript" charset="utf-8" src="js/table.proof_tracker.js"></script>
 	<script type="text/javascript" charset="utf-8" src="js/table.shoot_tracker.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/table.completed_orders.js"></script>
+
 	<!-- Bootstrap javascript -->
 	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.10.6/integration/bootstrap/3/dataTables.bootstrap.js"></script>
-
+	
 	<script>
+	
 	$('#order-tracker a').click(function (e)
 	{
 		e.preventDefault();
@@ -58,6 +61,11 @@
 		$(this).tab('show');
 	});
 	$('#shoot-tracker a').click(function (e)
+	{
+		e.preventDefault();
+		$(this).tab('show');
+	});
+	$('#completed-orders a').click(function (e) 
 	{
 		e.preventDefault();
 		$(this).tab('show');
@@ -75,6 +83,7 @@
 		<li role="presentation" class="active"><a href="#order-tracker" aria-controls="home" role="tab" data-toggle="tab">Order Tracker</a></li>
 		<li role="presentation"><a href="#proof-tracker" aria-controls="profile" role="tab" data-toggle="tab">Proof Tracker</a></li>
 		<li role="presentation"><a href="#shoot-tracker" aria-controls="profile" role="tab" data-toggle="tab">Shoot Tracker</a></li>
+		<li role="presentation"><a href="#completed-orders" aria-controls="profile" role="tab" data-toggle="tab">Completed Orders</a></li>
 	</ul>
 	<!-- TAB PANES --> 
 	<div class="tab-content">
@@ -128,6 +137,27 @@
 							<th>Shoot Number</th>
 							<th>Shoot Processed Date</th>
 							<th>Status</th>
+							<th>Notes</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+		</div>
+		<div role="tabpanel" class="tab-pane fade in" id="completed-orders">
+			<br>
+			<!-- COMPLETED ORDERS TABLE -->
+			<div class="compact-table">
+				<table id="completed_orders" class="table table-striped table-bordered table-hover dataTable center-table" role="grid">
+					<thead>
+						<tr>
+							<th>Invoice</th>
+							<th>Client</th>
+							<th>Phone</th>
+							<th>Email</th>
+							<th>Order Status</th>
+							<th>Notes</th>
+							<th>Balance</th>
+							<th>Shelf Location</th>
 						</tr>
 					</thead>
 				</table>

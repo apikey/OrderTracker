@@ -2,6 +2,7 @@
 
 $(document).ready(function() {
 
+	//$.fn.dataTable.moment('dddd, MMMM Do, YYYY');
 
 	var editor = new $.fn.dataTable.Editor( {
 		"ajax": "php/table.shoot_tracker.php",
@@ -18,7 +19,17 @@ $(document).ready(function() {
 			},
 			{
 				"label": "Status",
-				"name": "status"
+				"name": "status",
+				"type": "select",
+				options: [ 	{ label: 'Shoot Loaded', value: 'Shoot Loaded' },
+							{ label: 'Processed', value: 'Processed' },
+							{ label: 'Proofs Ordered', value: 'Proofs Ordered' },
+							{ label: 'Other', value: 'Other' } 
+				]
+			},
+			{
+				"label": "Notes",
+				"name": "notes"
 			}
 		]
 	} );
@@ -35,6 +46,10 @@ $(document).ready(function() {
 			},
 			{
 				"data": "status"
+			},
+			{
+				"data": "notes"
+
 			}
 		],
 		"tableTools": {
