@@ -1,0 +1,176 @@
+{
+	"data":
+	[
+		[
+			"Lisa Hart Willis",
+			"214-368-0080",
+			"publicrelations@lisahartwillis.com",
+			"Willis 15-061 H",
+			"No",
+			"",
+			"Proofs Ready"
+		],
+		[
+			"Cathy True",
+			"214-552-7808",
+			"cathytrue@hotmail.com",
+			"True 15-057 H",
+			"Yes",
+			"04/28/2015",
+			"Proofs with Client"
+		],
+		[
+			"Krista Owens",
+			"214-460-6000",
+			"krista@wrxpo.com",
+			"Owens 15-056 H",
+			"Yes",
+			"4/30/15",
+			"Proofs with Client"
+		],
+		[
+			"Amsler Bell",
+			"214-558-2515",
+			"priddybell@aol.com",
+			"Bell 15-040 H",
+			"Yes",
+			"04/08/2015",
+			"Proofs with Client"
+		],
+		[
+			"Christine McKenny",
+			"214-520-1223",
+			"christine_mckenny@yahoo.com",
+			"McKenny 15-046 H",
+			"No",
+			"",
+			"Proofs In Studio"
+		],
+		[
+			"Sunshine Bishop",
+			"903-262-8299",
+			"sunshinei20team@yahoo.com",
+			"Bishop 15-043 H",
+			"Yes",
+			"04/09/2015",
+			"Proofs with Client"
+		],
+		[
+			"Holly Bond",
+			"214-536-0255",
+			"hollyhbond@gmail.com",
+			"Bond 15-042 H",
+			"Yes",
+			"04/14/2015",
+			"Proofs with Client"
+		],
+		[
+			"Heather Walsh",
+			"713-628-3885",
+			"hcharrison1@gmail.com",
+			"Walsh 15-027 H; Walsh 15-037 H",
+			"Yes",
+			"04/16/2015",
+			"Proofs with Client"
+		],
+		[
+			"Annette Perkins",
+			"214-629-7222",
+			"annetteperkins1@gmail.com",
+			"Perkins 14-723 H; Perkins 14-761 H",
+			"Yes",
+			"01/20/2015",
+			"Proofs with Client"
+		],
+		[
+			"Anne Marie Myhre",
+			"214-336-1351",
+			"annemariemyhre@yahoo.com",
+			"Myhre 15-004 H",
+			"No",
+			"",
+			"Not sure if client has proofs or not. -JF 04/28/15"
+		],
+		[
+			"Taylor Craig",
+			"202-997-0673",
+			"tcraig3@gmail.com",
+			"Craig 14-753 H",
+			"No",
+			"",
+			"Not sure if client has proofs or not. -JF 04/28/15"
+		],
+		[
+			"Denise Wallace",
+			"214-244-9222",
+			"denise3725@aol.com",
+			"Wallace 14-754 H",
+			"Yes",
+			"?",
+			"?"
+		],
+		[
+			"Dr. Brendon & Keely Guthery",
+			"214-471-3600",
+			"keelydwilson@gmail.com",
+			"Guthery 14-734 H",
+			"No",
+			"",
+			"Proofs Ready"
+		],
+		[
+			"Bryanna Roop",
+			"214-564-4695",
+			"bryanna.miller@pinnaclemanagement.com",
+			"Roop 15-066 H",
+			"No",
+			"",
+			"Proofs Ready"
+		],
+		[
+			"Dr. Wendy Goodwin",
+			"214-986-5442",
+			"gitanacowgirl@me.com",
+			"Goodwin 14-116 H",
+			"Yes",
+			"6/23/14",
+			"Proofs with Client"
+		],
+		[
+			"Mr. & Mrs. Virginia Eulich",
+			"214-526-3081; 214-526-3081",
+			"",
+			"Martindale 15-060 H",
+			"Yes",
+			"05/05/15",
+			"Proofs with client"
+		],
+		[
+			"Gina Ginsburg",
+			"214-394-5848",
+			"ginaginsburg@yahoo.com",
+			"Ginsburgh 14-601 H",
+			"Yes",
+			"October",
+			"Proofs with client per Rhonda"
+		],
+		[
+			"Jennifer and Greg Schmeil",
+			"214-454-1884",
+			"jschmiel@dallaschamber.org",
+			"Schmeil 15-070 H",
+			"No",
+			"",
+			"Proofs ready. Client called to let them know and left message. -JF 5/13/15"
+		],
+		[
+			"Elizabeth Beacom (Braecklein)",
+			"214-415-7447",
+			"elizabeth.beacom@gmail.com",
+			"Braecklein 15-072 H",
+			"No",
+			"",
+			"Proofs Ready. Client called to let them know and left message. -JF 5/13/15"
+		]
+	]
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Haynsworth Tracking System</title>
+<!-- META -->
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
+
+<!-- STYLE SHEETS -->
+<!--
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.6/css/jquery.dataTables.css">
+-->
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/tabletools/2.2.4/css/dataTables.tableTools.css">
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/plug-ins/1.10.6/integration/bootstrap/3/dataTables.bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/dataTables.editor.css">
+<link rel="stylesheet" type="text/css" href="examples/resources/syntax/shCore.css">
+<link rel="stylesheet" type="text/css" href="examples/resources/demo.css">
+
+<style>
+.compact-table
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:1500px;
+}
+.center-table
+{
+	margin: 0 auto !important;
+	float: none !important;
+}
+</style>
+
+<!-- JAVASCRIPT -->
+<script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="//cdn.datatables.net/tabletools/2.2.4/js/dataTables.tableTools.min.js"></script>
+
+<script type="text/javascript" language="javascript" src="js/dataTables.editor.min.js"></script>
+<script type="text/javascript" language="javascript" src="examples/resources/syntax/shCore.js"></script>
+<script type="text/javascript" language="javascript" src="examples/resources/demo.js"></script>
+<script type="text/javascript" language="javascript" src="examples/resources/editor-demo.js"></script>
+
+<script type="text/javascript" language="javascript" class="init">
+var order_tracker_editor;
+
+$(document).ready(function()
+{
+	order_tracker_editor = new $.fn.dataTable.Editor( {
+		ajax: "php/OrderTracker.php",
+		table: "#order_tracker",
+		fields: 
+		[ 
+			{
+				label: "Invoice",
+				name: "invoice"
+			}, 
+			{
+				label: "Client",
+				name: "client"
+			}, 
+			{
+				label: "Phone",
+				name: "phone"
+			}, 
+			{
+				label: "Email",
+				name: "email"
+			}, 
+			{
+				label: "Order Status",
+				name: "order_status"
+			}, 
+			{
+				label: "Notes",
+				name: "notes"
+			}, 
+			{
+				label: "Balance",
+				name: "balance"
+			}, 
+			{
+				label: "Shelf Location",
+				name: "shelf_location"
+			}
+		]
+	});
+
+	$('#order_tracker').DataTable( {
+		dom: "Tfrtip",
+		ajax: "php/OrderTracker.php",
+		columns: [
+			{ data: "invoice" 		},
+			{ data: "client"  		},
+			{ data: "phone"   		},
+			{ data: "email"   		},
+			{ data: "order_status"	},
+			{ data: "notes" 		},
+			{ data: "balance", render: $.fn.dataTable.render.number(',','.', 2,'$')},
+			{ data: "shelf_location"}
+		],
+		tableTools: {
+			sRowSelect: "os",
+			aButtons: [
+				{ sExtends: "editor_create", editor: order_tracker_editor },
+				{ sExtends: "editor_edit", editor: order_tracker_editor },
+				{ sExtends: "editor_remove", editor: order_tracker_editor }
+			]
+		}
+	});
+});
+</script>
+</head>
+
+<!-- HEADER -->
+<div class="page-header center" style="text-align: center;"><h2>Haynsworth Tracking System <small>beta</small></h2></div>
+
+<!-- ORDER TRACKER TABLE -->
+<div class="compact-table" >
+<table id="order_tracker" class="table table-striped table-bordered table-hover dataTable" role="grid">
+<thead>
+<tr>
+<th>Invoice</th>
+<th>Client</th>
+<th>Phone</th>
+<th>Email</th>
+<th>Order Status</th>
+<th>Notes</th>
+<th>Balance</th>
+<th>Shelf Location</th>
+</tr>
+</thead>
+</table>
+</div>
+</html>

@@ -1,0 +1,145 @@
+{
+"data":
+	[
+		[
+			"33563",
+			"Krista and Chet Owens",
+			"214-460-6000",
+			"krista@wrxpo.com",
+			"Paid in full. Client picked up order. -JF 5/4/2015"
+		],
+		[
+			"33551",
+			"Reyn & Joe Longino",
+			"214-691-5788 (home); 214-577-6540 (cell)",
+			"longino@sbcglobal.net",
+			"Paid in full. Client picked up order. -JF 5/4/2015"
+		],
+		[
+			"33497",
+			"Sarah Perot",
+			"214-528-2225",
+			"",
+			"Paid in full. -JF 5/5/2015"
+		],
+		[
+			"33555",
+			"Thomas Hennings",
+			"214-415-4909",
+			"tom@dallasjuicebar.com",
+			"Paid in full.  Client picked up order. -JF 5/4/2015"
+		],
+		[
+			"26907-677",
+			"Mary Ann Hoover",
+			"214-369-3849",
+			"mahoover6@gmail.com",
+			"Paid in full. Client picked up.  -JF 5/5/2015"
+		],
+		[
+			"33554",
+			"Dr. Wesley Brady",
+			"214-356-4616",
+			"drbrady@thewwid.com",
+			"Paid in full. Images sent to client. -JF 5/5/15"
+		],
+		[
+			"33415",
+			"Gina Jackson",
+			"214-236-3186",
+			"ginajackson@houseloan.com",
+			"Order completed and shipped to client via UPS. -JF 5/5/15"
+		],
+		[
+			"33553",
+			"Carson Consulting",
+			"972-720-0900",
+			"",
+			"Completed order (digital image of Norma Krause). -JF 5/5/15"
+		],
+		[
+			"33499",
+			"James Range White Rock Security",
+			"214-473-4466",
+			"james.range@wrsecure.com",
+			"Order paid in full and completed. -JF 5/5/2015"
+		],
+		[
+			"33574",
+			"Linda Graham",
+			"214-686-6148",
+			"grahamhome@me.com",
+			"Order paid in full and images delivered to client. -JF 5/6/15"
+		],
+		[
+			"33505",
+			"Theresa Vrij",
+			"214-912-3994",
+			"theresa.vrij@att.net",
+			"Order paid and client picked up.  -JF 5/7/15"
+		],
+		[
+			"33575",
+			"Beverly Hickman",
+			"214-750-4525 (home); 214-549-4820 (cell)",
+			"",
+			"Order paid and client picked up. -JF 5/8/15"
+		],
+		[
+			"33561",
+			"Mindy Taylor",
+			"214-675-4681",
+			"andrewtaylor@sbcglobal.net",
+			"Client picked up order. -JF 5/7/15"
+		],
+		[
+			"33565",
+			"Mindy Taylor",
+			"214-675-4681",
+			"andrewtaylor@sbcglobal.net",
+			"Client picked up order. -JF 5/7/15"
+		],
+		[
+			"33523",
+			"Anne Stodghill", 
+			"214-675-2663",
+			"abstodghill@yahoo.com",
+			"Client picked up order."
+		],
+		[
+			"33571",
+			"Capp Crofford",
+			"214-808-8320",
+			"crofford@charter.net, cappcrofford@gmail.com",
+			"Client picked up order and paid."
+		],
+		[
+			"33552",
+			"Blake Stephenson", 
+			"214-543-0965",
+			"blakestephenson@att.net; bstephenson@modernluxury.com",
+			"Order picked up and paid in full. -JF 5/13/15"
+		],
+		[
+			"33527",
+			"Mr. and Mrs. Jon & Barbara Page",
+			"214-526-9804; 214-676-0089",
+			"",
+			"Order picked up and paid in full. -JF 5/12/15"
+		],
+		[
+			"33581",
+			"Carol Kapuranis Crumbley",
+			"214-478-1800",
+			"",
+			"Order picked up and paid in full. -JF 5/13/15"
+		],
+		[
+			"33580",
+			"Gina Jackson",
+			"214-236-3186",
+			"ginajackson@houseloan.com",
+			"Order completed and shipped to client via UPS. -JF 5/15/15"
+		]
+	]
+}

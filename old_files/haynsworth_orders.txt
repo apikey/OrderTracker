@@ -1,0 +1,145 @@
+{
+	"data":
+	[
+		[
+			"33520",
+			"Kerry Ann Pedigo", 
+			"214-803-8303",
+			"andreahpedigo@gmail.com; sydpedigo@gmail.com",
+			"Ready - Balance Due",
+			"Need to contact client. -JF",
+			"$162.38",
+			"P"
+		],
+		[
+			"33543",
+			"Jocelyn Miceli",
+			"214-914-2083",
+			"micelix7@att.net",
+			"Ready",
+			"LM to let client know order is ready and that would could ship to her since she lives in Allen, TX. -JF",
+			"$0.00",
+			"Large Items"
+		],
+		[
+			"33546",
+			"Jennifer Wright",
+			"214-704-8788; 214-520-8100",
+			"jwright@texfamlaw.com",
+			"Ready - Balance Due",
+			"Client picked up both portraits. Per Rhonda she will let us know which images need to go into her albums. -JF",
+			"$1022.96",
+			"W"
+		],
+		[
+			"33547",
+			"Mrs. Ann Tyler",
+			"214-287-5819",
+			"anntylerdesign@yahoo.com",
+			"Ready, on shelf 'R'",
+			"5x7 Print ready for client.  Emailed her to let her know.  -JF 5/7/15",
+			"$0.00",
+			"R"
+		],
+		[
+			"33503",
+			"Kim & Kirk Davis",
+			"214-957-1418 (cell); 214-691-2425 (home)",
+			"kim_davis@mecom",
+			"Ordered Prints from Pounds",
+			"Will close sale once prints come in and client contacted. -JF 5/6/15",
+			"$1521.24",
+			"N/A"
+		],
+		[
+			"33562",
+			"Carolyn Lupton",
+			"214-528-8082",
+			"mimi_one@me.com",
+			"Portrait Being Framed",
+			"Fred Wolf has portrait and frame. -JF 5/13/15",
+			"$0.00",
+			""
+		],
+		[
+			"33567",
+			"Carolyn Benson",
+			"214-773-7776",
+			"carolynbenson10@gmail.com",
+			"Ready for pick up",
+			"Left message with client letting her know that her order is ready for pick up. -JF 5/8/15",
+			"$0.00",
+			"Production Table"
+		],
+		[
+			"33579",
+			"Vicky and Doug Lattner",
+			"214-969-9989",
+			"dvlatt@att.net",
+			"In Progress",
+			"Client needs to approve retouching.",
+			"$2,902.27",
+			""
+		],
+		[
+			"33585",
+			"Michelle Crisco",
+			"214-552-3112",
+			"starbuckcrisco@yahoo.com",
+			"Ordered from Pounds",
+			"Client paid in full and would like portraits before Father's Day. -JF 5/14/15",
+			"$0.00",
+			""
+		],
+		[
+			"33583",
+			"Tonya McKinney",
+			"214-693-8098",
+			"",
+			"Order Ready",
+			"LM to let client know her order is ready.  -JF 5/15/15",
+			"$0.00",
+			"Large Items"
+		],
+		[
+			"33582",
+			"Holly Wheeler",
+			"214-373-8884",
+			"hollywally@texacone.com",
+			"Ordered from Pounds",
+			"Client paid in full",
+			"$0.00",
+			""
+		],
+		[
+			"33588",
+			"Steve Robinson",
+			"214-563-6807",
+			"",
+			"Ordered from Pounds",
+			"Order needs to be shipped to client when ready.  -JF 5/15/15",
+			"$0.00",
+			""
+		],
+		[
+			"33590",
+			"Teri Brooks",
+			"",
+			"",
+			"Ready",
+			"Client will be in today to pick up order. -JF 5/18/15",
+			"$0.00",
+			"B"
+		],
+		[
+			"33589",
+			"Jana and Jay Wicker",
+			"972-618-1939; 214-616-9224",
+			"",
+			"Ordered from Pounds",
+			"Client paid in full. -JF 5/15/15",
+			"$0.00",
+			""
+		]
+	]
+}
