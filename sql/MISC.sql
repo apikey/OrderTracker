@@ -29,3 +29,19 @@ BEGIN
 	(OLD.shoot_number, OLD.status);
 END;;
 DELIMITER ;
+
+-- insert deleted proof_tracker item and into order_tracker when proof is deleted.
+DELIMITER ;;
+DROP TRIGGER IF EXISTS INSERT_INTO_ORDER_TRACKER;;
+CREATE TRIGGER INSERT_INTO_ORDER_TRACKER
+BEFORE DELETE
+	ON proof_tracker FOR EACH ROW
+BEGIN
+	INSERT INTO order_tracker
+	(client, phone, email, notes)
+	VALUES
+	(OLD.client, OLD.phone, OLD.email, OLD.status);
+END;;
+DELIMITER ;
+
+-- date updated for order_tracker entry on date of update.

@@ -19,7 +19,7 @@ use
 
 
 // Build our Ed itor instance and process the data coming from _POST
-Editor::inst( $db, 'proof_tracker', 'client' )
+Editor::inst( $db, 'proof_tracker', 'client_id' )
 	->fields
 	(
 		Field::inst( 'client'			),
@@ -28,7 +28,8 @@ Editor::inst( $db, 'proof_tracker', 'client' )
 		Field::inst( 'shoot_number'		),
 		Field::inst( 'deposit_paid' 	),
 		Field::inst( 'proof_checkout_date' 			),
-		Field::inst( 'status' 	)
+		Field::inst( 'status' 	),
+		Field::inst( 'notes'	)
 	)
 	->process( $_POST )
 	->json();

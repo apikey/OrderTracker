@@ -29,7 +29,23 @@ $(document).ready(function() {
 			},
 			{
 				"label": "Order Status",
-				"name": "order_status"
+				"name": "order_status", 
+				"type": "select",
+				options: [
+							{ label: 'In Progress', value: 'In Progress'},
+							{ label: 'Sent to Jo-Ann for Retouching', value: 'Sent to Jo-Ann for Retouching'},
+							{ label: 'Awaiting Approval from Client', value: 'Awaiting Approval from Client'},
+							{ label: 'Awaiting Retouch Approval from Client', value: 'Awaiting Retouch Approval from Client'},
+							{ label: 'Ordered from Pounds Labs', value: 'Ordered from Pounds Labs'},
+							{ label: 'Ordered from BWC', value: 'Ordered from BWC'},
+							{ label: 'Ordered from Bay Photo', value: 'Ordered from Bay Photo'},
+							{ label: 'Picture(s) Being Framed', value: 'Picture(s) Being Framed'},
+							{ label: 'Order in Studio, Not Ready', value: 'Order in Studio, Not Ready'},
+							{ label: 'Order Ready for Client Pick Up', value: 'Order Ready for Client Pick Up'},
+							{ label: 'Order Ready, Client Contacted to Pick Up', value: 'Order Ready, Client Contacted to Pick Up'},
+							{ label: 'Order Ready, Left Message and/or Sent Email to Client', value: 'Order Ready, Left Message and/or Sent Email to Client'},
+							{ label: 'Other (add details in "Notes" field)', value: 'Other (add details in "Notes" field)'}
+				]
 			},
 			{
 				"label": "Notes",
@@ -41,7 +57,19 @@ $(document).ready(function() {
 			},
 			{
 				"label": "Shelf Location",
-				"name": "shelf_location"
+				"name": "shelf_location",
+				"type": "select",
+				options: [ 
+							{ label: 'Not In Studio Yet', value: 'Not In Studio Yet' },
+							{ label: 'A, B, C, D, E, F', value: 'A, B, C, D, E, F' },
+							{ label: 'G, H, I, J, K, L', value: 'G, H, I, J, K, L' },
+							{ label: 'M, N, O, P', value: 'M, N, O, P' },
+							{ label: 'Q, R, S, T', value: 'Q, R, S, T' },
+							{ label: 'U, V, W, X, Y, Z', value: 'U, V, W, X, Y, Z' },
+							{ label: 'Large Items', value: 'Large Items' },
+							{ label: 'Production Table', value: 'Production Table' },
+							{ label: 'Black Wire Shelf', value: 'Black Wire Shelf' }
+				]
 			}
 		]
 	} );
